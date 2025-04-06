@@ -1,6 +1,7 @@
 import React from 'react'
 import  heroImage  from "../assets/heroImage.png";
 import { MdArrowRightAlt } from "react-icons/md";
+import { Link } from "react-scroll";
 
 
 const Home = () => {
@@ -16,11 +17,11 @@ const Home = () => {
             I'm Shaghaf Kashif, a passionate Full Stack Developer skilled in building dynamic web applications. With expertise in the MERN stack (MongoDB, Express.js, React, Node.js), I create seamless user experiences and robust back-end solutions. As a Data Science student at RNSIT, I blend analytical skills with coding expertise to develop innovative projects
             </p>
             <div>
-                <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md  bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+              <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md  bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                     Portfolio<span className='group-hover:rotate-90 duration-300'>
                         <MdArrowRightAlt className='ml-1'/>
                     </span>
-                </button>
+                </Link>
             </div>
         </div>
         <div >
