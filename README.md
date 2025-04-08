@@ -4,7 +4,7 @@ Welcome to my portfolio website repository! This is a modern, fully responsive p
 
 ## 📸 Live Demo
 
-🔗 [View Live Website](shaghafkashif.vercel.app)
+🔗 [View Live Website](https://shaghafkashif.vercel.app/)
 
 > _Replace the above link with your actual deployment URL (e.g., Vercel, Netlify, GitHub Pages)_
 
@@ -98,7 +98,7 @@ Then open a Pull Request. Contributions are always welcome! 🫶
 ## 📬 Contact Me
 
 - 📧 Email: [shaghafkashif@gmail.com](mailto:shaghafkashif@gmail.com)
-- 🔗 LinkedIn: [linkedin.com/in/shaghafkashif](https://www.linkedin.com/in/shaghafkashif/)
+- 🔗 LinkedIn: [linkedin.com/in/shaghafkashif](www.linkedin.com/in/shaghaf-kashif-9021482a1)
 - 🐦 Twitter: [@shaghafkashif](https://x.com/KashifShaghaf)
 
 ---
