@@ -3,6 +3,7 @@ import fitfusion from "../assets/portfolio/fitfusion.png";
 import notionx from "../assets/portfolio/notionx.png";
 import TextLens from "../assets/portfolio/TextLens.jpeg";
 import Weatherapp from "../assets/portfolio/Weatherapp.png";
+import shrinkr from "../assets/portfolio/shrinkr.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,6 +30,12 @@ const Portfolio = () => {
       src: Weatherapp,
       demoLink: "https://weather-nest-tau.vercel.app/",
       codeLink: "https://github.com/shaghaf7/Weather-App",
+    },
+    {
+      id: 5,
+      src: shrinkr,
+      demoLink: "https://shrinkr-neon.vercel.app/",
+      codeLink: "https://github.com/shaghaf7/Shrinkr",
     },
   ];
 
