@@ -4,14 +4,27 @@ import notionx from "../assets/portfolio/notionx.png";
 import TextLens from "../assets/portfolio/TextLens.jpeg";
 import Weatherapp from "../assets/portfolio/Weatherapp.png";
 import shrinkr from "../assets/portfolio/shrinkr.png";
+import Trackify from "../assets/portfolio/Trackify.png";
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 6,
+      src: Trackify,
+      demoLink: "https://trackify-ten-eta.vercel.app/",
+      codeLink: "https://github.com/shaghaf7/Trackify",
+    },
     {
       id: 1,
       src: fitfusion,
       demoLink: "", // Add your live demo link here
       codeLink: "https://github.com/shaghaf7/fitfusion", // Add your GitHub/code link here
+    },
+    {
+      id: 5,
+      src: shrinkr,
+      demoLink: "https://shrinkr-neon.vercel.app/",
+      codeLink: "https://github.com/shaghaf7/Shrinkr",
     },
     {
       id: 2,
@@ -30,12 +43,6 @@ const Portfolio = () => {
       src: Weatherapp,
       demoLink: "https://weather-nest-tau.vercel.app/",
       codeLink: "https://github.com/shaghaf7/Weather-App",
-    },
-    {
-      id: 5,
-      src: shrinkr,
-      demoLink: "https://shrinkr-neon.vercel.app/",
-      codeLink: "https://github.com/shaghaf7/Shrinkr",
     },
   ];
 
