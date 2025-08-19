@@ -5,6 +5,7 @@ import TextLens from "../assets/portfolio/TextLens.jpeg";
 import Weatherapp from "../assets/portfolio/Weatherapp.png";
 import shrinkr from "../assets/portfolio/shrinkr.png";
 import Trackify from "../assets/portfolio/Trackify.png";
+import blogify from "../assets/portfolio/blogify.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -20,12 +21,19 @@ const Portfolio = () => {
       demoLink: "", // Add your live demo link here
       codeLink: "https://github.com/shaghaf7/fitfusion", // Add your GitHub/code link here
     },
+      {
+      id: 7,
+      src: blogify,
+      demoLink: "",
+      codeLink: "https://github.com/shaghaf7/blogify",
+    },
     {
       id: 5,
       src: shrinkr,
       demoLink: "https://shrinkr-neon.vercel.app/",
       codeLink: "https://github.com/shaghaf7/Shrinkr",
     },
+
     {
       id: 2,
       src: TextLens,
